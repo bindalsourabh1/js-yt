@@ -1,0 +1,21 @@
+// console.log("2" > 1);
+// console.log("1" > 2)
+
+// console.log(undefined > 0);
+// console.log(null > 0);
+// console.log(null == 0)
+// console.log(null >= 0)
+// console.log(2 === "7")
+
+// always remember that the comparison to do between the same data types
+// == and >, < works differently in js
+
+const id = Symbol(122)
+const anId = Symbol(122);
+console.log(id === anId)
+
+const myFunction = function(){
+    console.log("Hello World");
+}
+
+console.log(typeof myFunction)
